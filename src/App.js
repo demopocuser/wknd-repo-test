@@ -32,14 +32,14 @@ function App() {
                 */}
                 <meta
                     name="urn:adobe:aue:system:aemconnection"
-                    content={`aem:https://localhost:8443`}
+                    content={`aem:https://author-p10903-e844381.adobeaemcloud.com`}
                 />
                 {/* AEM Universal Editor :: Configuration for Service
               Using locally running Universal Editor service
               */}
               <meta
                 name="urn:adobe:aue:config:service"
-                content={`https://localhost:8000`}
+                content={`https://author-p10903-e844381.adobeaemcloud.com`}
               />
             </Helmet>
             <Router>
